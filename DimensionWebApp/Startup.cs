@@ -63,7 +63,7 @@ namespace DimensionWebApp
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Cmpg323Project2Dataset3}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }

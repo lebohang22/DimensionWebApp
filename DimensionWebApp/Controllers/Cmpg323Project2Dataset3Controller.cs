@@ -49,6 +49,8 @@ namespace DimensionWebApp.Controllers
             return View();
         }
 
+        
+
         // POST: Cmpg323Project2Dataset3/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -61,7 +63,11 @@ namespace DimensionWebApp.Controllers
                 _context.Add(cmpg323Project2Dataset3);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
+                
+
+
             }
+            
             return View(cmpg323Project2Dataset3);
         }
 
